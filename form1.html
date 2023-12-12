@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel="stylesheet" href="form1.css">
+        <title>Formulaire 1</title>
+    </head>
+    <body>
+        <header>
+            <h1>Formulaire Complet</h1>
+        </header>
+        <main>
+            <form action="/Users/Raphaël GENONI" method="post">
+                <fieldset>
+                    <legend>Identité</legend>
+                    <label for="pseudo">Pseudo *</label>
+                    <br>
+                    <input type="text" id="pseudo" placeholder="Pseudo" required>
+                    <br>
+                    <label for="mdp">Mot de passe *</label>
+                    <br>
+                    <input type="password" id="mdp" placeholder="12345" required>
+                    <br>
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input type="email" id="email" placeholder="azer@azer.com">
+                    <br>
+                    <label for="liste">Ville</label>
+                    <br>
+                    <select name="Ville" id="Ville">
+                        <option value="prs">Paris</option>
+                        <option value="Lon">Lyon</option>
+                        <option value="Ste">Sète</option>
+                        <option value="Mse">Marseille</option>
+                    </select>
+                    <br>
+                    <label for="code">Code Postal *</label>
+                    <br>
+                    <input type="text" id="code" placeholder="78480" required>
+                    <br>
+                    <label for="avatar">Avatar</label>
+                    <br>
+                    <input type="file" id="avatar" placeholder="Parcourir...">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="destination">Quelle destination choisirai tu ? :</label>
+                    <br>
+                    <input type="checkbox" id="Chine">
+                    <label for="Chine">Chine</label>
+                    <input type="checkbox" id="Australie">
+                    <label for="Australie">Australie</label>
+                    <input type="checkbox" id="Inde">
+                    <label for="Inde">Inde</label>
+                    <br>
+                    <label for="comment">Commentaire :</label>
+                    <br>
+                    <input class="commentaire" type="text" id="comment" placeholder="Saisir le texte">
+                </fieldset>
+                <br>
+                <input type="checkbox" id="accept" required>
+                <label for="accept">Accepter conditions d'utilisations *</label>
+                <br>
+                <label for="accept"></label>
+                <input class="submit" type="submit" id="accept" value="S'inscrire">
+                <br>
+                <label for="refuse"></label>
+                <input class="reset" type="reset" id="refuse" value="Annuler">
+            </form>
+        </main>
+    </body>
+</html>
+
+<!--radio (multiple ou simple)-->
+<!--submit/reset-->

@@ -1,0 +1,35 @@
+body {
+    padding: 200px 500px 200px 500px;
+    background-image: url("cat.png");   
+}
+
+input, select {
+    margin-bottom:20px ;
+}
+
+.commentaire {
+    padding: 0 30em 10em 0;
+    margin: 0 auto;
+}
+
+form {
+    background-color: hsla(333, 16%, 56%, 0.2);
+}
+
+.submit {
+    margin: 0 auto;
+    padding: 10px 423px 10px 423px;
+    text-align: center;
+    color: white;
+    background-color: rgb(127, 211, 0);
+    border-radius: 7px;
+}
+
+.reset {
+    margin: 0 auto;
+    padding: 10px 428px 10px 428px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border-radius: 7px;
+}

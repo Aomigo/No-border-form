@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+
+body {
+    padding: 200px 700px 40px 700px;
+    background-color: teal;
+    margin: 0 auto;
+}
+
+header, label {
+    font-family: 'Afacad', sans-serif;
+}
+
+Header {
+    color: gray;
+    background-color: rgb(56, 44, 44);
+    height: 50px;
+}
+
+fieldset, input {
+    border: none;
+}
+
+input {
+    margin-bottom:20px ;
+    border-bottom: 1px solid gray;
+    padding: 0 15em 0 0;
+    height: 30px;
+}
+
+
+form {
+    background-color: white;
+    outline: none;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.check {
+    float: right;
+}
+
+.login {
+    margin: 0 auto;
+    padding: 10px 200px 10px 200px;
+    text-align: center;
+    color: white;
+    background-color: teal;
+    border-radius: 7px;
+}

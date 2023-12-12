@@ -1,0 +1,12 @@
+label {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+fieldset {
+    width: 40%;
+    margin: 0 auto;
+    background-color: hsla(333, 16%, 56%, 0.2);
+    padding: 1em;
+    border-radius: 1%;
+}

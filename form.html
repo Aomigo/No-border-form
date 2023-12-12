@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="form/form.css">
+<fieldset>
+    <legend>Identité</legend>
+    
+    <label for="pseudo">pseudo *</label>
+    <input type="text" id="pseudo" placeholder="Pseudo">
+    <br>
+    <label for="mdp">mot de passe *</label>
+    <input type="password" id="mdp" placeholder="1234" required>
+    <br>
+    <label for="liste">Liste déroulante</label>
+    <select name="destination" id="liste">
+        <option value="">choisir</option>
+        <option value="fr">Français</option>
+        <option value="it">Italien</option>
+        <option value="esp">Espagnol</option>
+        <option value="eng">Anglais</option>
+    </select>
+    <br>
+    <label for="jauge">Jauge</label>
+    <input type="range" name="" id="jauge" min="0" max="100" step="5" value="50">
+    <br>
+    <label for="color">couleur</label>
+    <input type="color" id="color" value="#ff0000"> 
+    <br>
+
+    <input type="submit" name="Inscription" value="Envoyer">
+</fieldset>
